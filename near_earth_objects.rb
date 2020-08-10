@@ -6,6 +6,7 @@ Figaro.application = Figaro::Application.new(environment: 'production', path: Fi
 Figaro.load
 
 class NearEarthObjects
+
   # this class could use some helper methods, so everything doesn't live
   # in 'find_neos_by_date'
   def self.find_neos_by_date(date)
