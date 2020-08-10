@@ -1,6 +1,15 @@
 require_relative 'near_earth_objects'
 
 class NeoTable
+
+  def self.generate_table
+    NeoTable.new(self.get_date).create_table
+  end
+
+  def self.get_date
+    gets.chomp
+  end
+
   def initialize(date)
     astroid_details = NearEarthObjects.find_neos_by_date(date)
 

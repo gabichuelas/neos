@@ -7,10 +7,13 @@ puts "Please enter a date in the following format YYYY-MM-DD."
 print ">>"
 
 # USER INPUT
-date = gets.chomp
+# the following class method is in charge of prompting
+# the user for a date, and then generating the
+# NEO Table with API data
 
-neo_table = NeoTable.new(date)
-neo_table.create_table
+NeoTable.generate_table
+
+# --------------------------------------------
 
 # # ACTUAL DATA from API
 # astroid_details = NearEarthObjects.find_neos_by_date(date)
