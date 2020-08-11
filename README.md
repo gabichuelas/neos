@@ -1,5 +1,10 @@
 # Mod 3 Refactoring Workshop
 
+**Context:** 
+
+An exercise to be completed during intermission before Mod 3 at Turing -- 
+Discussed with a partner, a few notes in their [README](https://github.com/rrabinovitch/neos/blob/master/README.md).
+
 ## Background
 
 Near Earth Objects is an educational command line tool that strives to interrupt the monotony of day to day living by allowing users to understand how close to extinction life on earth is at any given point in time. Every day thousands of NEOs (Near Earth Objects) i.e. comets, astroids, meteors pass by the earth at alarmingly close distances. One slight shift in the cosmos would cause these NEOs to crash into the earth, setting off a series of catastrophic events that would lead to the end of life as we know it (much like the fate of the dinosaurs). Now that we've discussed this, please take a moment to appreciate 3 small things in your life that you take for granted and assume will always be there...
